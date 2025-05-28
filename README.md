@@ -1,7 +1,10 @@
 ## Check Name Nationality Probability
-I've developed a simple web app that predicts the nationality of a name using the [Nationalize API](https://nationalize.io/). The user enters a name, and the app scans the highest probabilty origgin of the name. The app then displays the result of the name and if the name is not   in the API's dictionary it displays "Name not defined or no country data found."
+This a simple web app that predicts the nationality of a name using the [Nationalize API](https://nationalize.io/). The user enters a name, and the app scans the highest probabilty origgin of the name. The app then displays the result of the name and if the name is not   in the API's dictionary it displays "Name not defined or no country data found."
 
+## Web app Images
 ![screenshot](./Assets/screenshot1.png)
+
+After a user tries to search a name, in case of a delay, on the search button, **"Loading"** is displayed to tell the user to be patient. Also, after hitting search, the search button is disabled to prevent the user clicking it multiple times and enabled after getting results.
 
 ![screenshot](./Assets/screenshot2.png)
 ## How to Use
